@@ -1,5 +1,6 @@
 # Linux-Assignment-4
-
+* In this repo I'm documenting 25 Linux Questions as a part of Keenable internship. Let's start the adventure with terminal..
+  
 **Ques 1: Create a directory named "MyFiles" in your home directory. Navigate into this directory and list its contents.**
 
 ``` 
