@@ -79,7 +79,7 @@ ln -s document.txt symlink.txt
 ```
 **Output**
 
-![Screenshot from 2024-02-01 17-21-21](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/424d0692-131b-4ecb-8977-a00907417bde)
+
 
 **Ques 5 : In the "MyFiles" directory, use a single command to list all files that start with the letter "a" and have a ".txt" extension.**
 
