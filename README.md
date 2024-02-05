@@ -18,7 +18,7 @@ cd MyFiles
 
 **Output**
 
-![image](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/23131560-ddb6-4b12-8876-8258c4e073fa)
+![Screenshot from 2024-02-05 12-08-10](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/d81b9eb3-34c9-45dd-a0a2-18901ab76fff)
 
 **Ques 2: Copy a file named "document.txt" from your home directory to the "MyFiles" directory. Move the file to a subdirectory named "Documents" within "MyFiles."**
 
@@ -43,7 +43,7 @@ sudo mv MyFiles/document.txt MyFiles/Document
 
 **output**
 
-![image](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/bf0f22c5-c182-4d44-aef1-fe8d341d6a0c)
+![Screenshot from 2024-02-05 12-30-15](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/5931c331-64d1-42f2-9740-66ecd5e73b12)
 
 
 **Ques 3 : Create an empty file named "notes.txt" in the "MyFiles" directory. Afterward, delete the file.**
@@ -62,7 +62,8 @@ sudo rm -rf notes.txt
 
 **Output**
 
-![Screenshot from 2024-02-01 17-11-06](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/f9ebf3d0-df42-49d7-b305-0e38dc627fe5)
+![Screenshot from 2024-02-05 12-35-44](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/eda6ec80-91ad-4537-b603-5468b6db66d8)
+
 
 
 **Ques 4 : Create a hard link named "hardlink.txt" for the file "document.txt" within the "Documents" subdirectory. Also, create a symbolic link named "symlink.txt" in the same location.**
