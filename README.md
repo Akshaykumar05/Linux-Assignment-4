@@ -69,16 +69,17 @@ sudo rm -rf notes.txt
 **Ques 4 : Create a hard link named "hardlink.txt" for the file "document.txt" within the "Documents" subdirectory. Also, create a symbolic link named "symlink.txt" in the same location.**
 
 ```
-cd /home/MyFiles/Document
+sudo cd /home/MyFiles/documents
 ```
 ```
-ln document.txt hardlink.txt
+sudo ln document.txt hardlink.txt
 ```
 ```
-ln -s document.txt symlink.txt
+sudo ln -s document.txt symlink.txt
 ```
 **Output**
 
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/10dfa922-c385-4617-86c1-b135fa09f472)
 
 
 **Ques 5 : In the "MyFiles" directory, use a single command to list all files that start with the letter "a" and have a ".txt" extension.**
@@ -89,7 +90,8 @@ sudo ls /home/MyFiles/a*.txt
 
 **Output**
 
-![Screenshot from 2024-02-01 17-32-14](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/f8b35588-3c63-4a52-a457-08176d04d991)
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/567c8124-8cc7-4fff-a311-0923892d66c3)
+
 
 
 **Ques 6: Rename all files in the "Documents" subdirectory of "MyFiles" with a ".bak" extension. Ensure the original file names are preserved.**
