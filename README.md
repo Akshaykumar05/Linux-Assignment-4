@@ -126,7 +126,8 @@ sudo bash ../rename.sh
 ```
 **Output**
 
-![Screenshot from 2024-02-01 18-21-48](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/53789776-4d53-41ae-aa22-9fc2689807b0)
+![Screenshot from 2024-02-09 18-39-58](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/838df57e-c420-4ba9-ad8a-09dfad79aedc)
+
 
 **Ques 7: Use a wildcard character to copy all files from the "Documents" subdirectory of "MyFiles" to another directory named "Backup."**
 
