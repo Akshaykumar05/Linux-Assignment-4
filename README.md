@@ -149,7 +149,8 @@ sudo cp /home/MyFiles/Document/* /home/MyFiles/backup/
 
 **Output**
 
-![Screenshot from 2024-02-02 10-34-55](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/c332f2ed-32cb-4b7f-bafb-0847d58896df)
+![Screenshot from 2024-02-09 18-46-37](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/8f25734f-3a2d-4c20-a2dc-f93a2f528769)
+
 
 **Ques 8 :Execute the ls command to list files in the current directory. Save the output to a file named "file_list.txt." Then, use a pipe to filter the output through grep to display only files with a ".txt" extension.**
 
