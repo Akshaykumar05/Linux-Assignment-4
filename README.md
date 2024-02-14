@@ -203,10 +203,10 @@ sudo vim my_notes.txt
 ```
 **Output**
 
+![Screenshot from 2024-02-10 17-39-52](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/c2469815-9123-404d-9902-7d58c953c772)
 
-![Screenshot from 2024-02-02 11-22-48](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/55489b45-3f5d-4b2d-a630-cf437c3fe3d4)
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/0b95e7c7-80c7-4a3f-9083-699ee47b4502)
 
-![Screenshot from 2024-02-02 11-26-52](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/ed690270-cf6c-446d-a5a3-9e0bcf7c0b56)
 
 **Ques 10 :Run the date command and store the output in a variable named "current_date." Display the value of the variable and append it to the "my_notes.txt" file.**
 
@@ -227,9 +227,10 @@ echo "$current_date" >> my_notes.txt
 ```
 **Output**
 
-![Screenshot from 2024-02-02 11-37-48](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/4bf8b699-36ce-4a7b-be32-6654a0858846)
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/569a52ad-9871-4cde-9803-64d74a4a8aa2)
 
-![Screenshot from 2024-02-02 11-42-47](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/c46260f6-236f-4214-b0a5-88cf3fa08e7b)
+
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/b3601a5c-9e4a-4986-83cd-6203a7f3eaba)
 
 
 **Ques 11 : Edit the Bash startup script (e.g., .bashrc) to set an environment variable named "CUSTOM_PATH" to a specific directory path. Ensure the variable is available in new shell sessions.**
@@ -267,7 +268,8 @@ cat my_notes.txt
 ```
 **Output**
 
-![Screenshot from 2024-02-02 14-21-47](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/66aef82f-825f-4bd8-bb3a-bb924d3f9aaa)
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/b7ecc831-5957-4f7b-8b47-ded1df185b48)
+
 
 **Ques 13 : List all files in the "/etc" directory, filter the output to include only those containing the word "conf," and save the result to a file named "conf_files.txt."**
 
