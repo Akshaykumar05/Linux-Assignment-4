@@ -303,7 +303,7 @@ sudo useradd -m -d /home/john_doe -g users john_doe
 ```
 **Output**
 
-![Screenshot from 2024-02-02 15-58-43](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/b207ab3a-bf14-453d-976e-6f927418bd4a)
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/5e5dae69-b01e-4d66-a305-0498ca1fa833)
 
 **Ques 16 : Add the user "john_doe" to the sudoers file, allowing them superuser privileges. Confirm that "john_doe" can execute commands with sudo.**
 
@@ -324,7 +324,8 @@ sudo su
 ```
 **Output**
 
-![Screenshot from 2024-02-02 17-37-03](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/620817c9-3c3d-407b-a145-db82b5d5a44e)
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/30d77f13-30d2-4def-ba45-de3084a8377d)
+
 
 **Ques 17 :Modify the user account "john_doe" to change the default shell to "/bin/bash" and set the account's expiration date to one month from today.**
 
@@ -334,9 +335,13 @@ sudo chsh -s /bin/bash john_doe
 ```
 sudo chage -E $(date -d "+1 month" +"%Y-%m-%d") john_doe
 ```
+```
+sudo chage -l john_doe
+```
 **Output**
 
-![Screenshot from 2024-02-03 11-01-04](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/45bf1950-6121-4c80-bf11-f0e01ce18b6f)
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/4b5c0f43-91f4-4365-8f72-e8f456f1e9ba)
+
 
 
 **Ques 18 :Create a new group named "development_team." Add "john_doe" to this group and verify the group's existence.**
@@ -352,7 +357,8 @@ getent group development_team
 ```
 **Output**
 
-![Screenshot from 2024-02-03 11-04-39](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/1c353beb-db1e-4727-9539-f6240b675779)
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/3a4395bd-1819-4944-97ea-c4fed77780ca)
+
 
 **Ques 19 : Remove "john_doe" from the "users" group and add them to the "development_team" group. Confirm the changes.**
 
@@ -367,7 +373,8 @@ groups john_doe
 ```
 **Output**
 
-![Screenshot from 2024-02-03 11-10-17](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/54848d72-c6dd-4388-9ca3-7b792465358a)
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/7e0a6a39-2586-41d8-a10c-e4a7da05b8a2)
+
 
 **Ques 20 :Delete the user account "john_doe" and ensure that their home directory is also removed.**
 
@@ -379,7 +386,8 @@ groups jhon_doe
 ```
 **Output**
 
-![Screenshot from 2024-02-03 11-50-23](https://github.com/MOINUDDIN0786/Linux-Assignment-4/assets/64195957/454afda8-aa0e-4269-9338-b58bdc89b47b)
+![image](https://github.com/Akshaykumar05/Linux-Assignment-4/assets/114390890/a75268e3-8667-4c9d-977e-580d6f3469cb)
+
 
 **Ques 21 : Delete the group "development_team" and ensure that all users previously belonging to the group are appropriately handled.**
 
